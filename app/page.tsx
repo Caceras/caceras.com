@@ -197,6 +197,7 @@ export default function Portfolio() {
   ]
 
   const techPlatforms = [
+    { name: "Stack Overflow", url: "https://stackoverflow.com/users/10110438/riki-caceras", icon: Code2 },
     { name: "HuggingFace", url: "https://huggingface.co/Caceras", icon: Code2 },
     { name: "Ollama", url: "https://ollama.com/Caceras", icon: Sparkles },
     { name: "Kaggle", url: "https://www.kaggle.com/guanaco", icon: Code2 },
