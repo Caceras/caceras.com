@@ -182,6 +182,7 @@ export default function Portfolio() {
   const professionalLinks = [
     { name: "Website", url: "https://caceras.com/", icon: Globe },
     { name: "Pineberry Profile", url: "https://jobb.pineberry.com/people/1113938-riki-caceras", icon: Briefcase },
+    { name: "Pineberry Author", url: "https://www.pineberry.com/author/rikard-caceras/", icon: Newspaper },
     {
       name: "Google Scholar",
       url: "https://scholar.google.com/citations?user=xE35YsQAAAAJ&hl=en",
@@ -372,13 +373,22 @@ export default function Portfolio() {
                   </div>
                 </div>
 
-                <a
-                  href="mailto:riki@caceras.com"
-                  className="mt-4 md:mt-6 inline-flex items-center gap-2 text-xs md:text-sm font-semibold text-primary hover:underline"
-                >
-                  <Mail className="w-4 h-4" />
-                  riki@caceras.com
-                </a>
+                <div className="mt-4 md:mt-6 flex flex-col gap-2">
+                  <a
+                    href="mailto:riki@caceras.com"
+                    className="inline-flex items-center gap-2 text-xs md:text-sm font-semibold text-primary hover:underline"
+                  >
+                    <Mail className="w-4 h-4" />
+                    riki@caceras.com
+                  </a>
+                  <a
+                    href="mailto:Rikicaceras@gmail.com"
+                    className="inline-flex items-center gap-2 text-xs md:text-sm font-semibold text-primary hover:underline"
+                  >
+                    <Mail className="w-4 h-4" />
+                    Rikicaceras@gmail.com
+                  </a>
+                </div>
               </div>
             </Card>
 
