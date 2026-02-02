@@ -192,7 +192,7 @@ export default function Portfolio() {
     { name: "About.me", url: "https://about.me/caceras", icon: Globe },
     { name: "v0", url: "https://v0.app/@riki-caceras", icon: Sparkles },
     { name: "Google Dev", url: "https://g.dev/caceras", icon: Code2 },
-    { name: "Medium", url: "https://medium.com/@rikicaceras", icon: FileText },
+    { name: "Medium", url: "https://medium.com/@caceras", icon: FileText },
   ]
 
   const techPlatforms = [
@@ -220,6 +220,7 @@ export default function Portfolio() {
     { name: "Trustpilot Profile 2", url: "https://se.trustpilot.com/users/69100695d1bf915fb2a3e38f", icon: Star },
     { name: "Trustpilot Review", url: "https://se.trustpilot.com/review/caceras.com", icon: Star },
     { name: "Luma", url: "https://luma.com/user/Caceras", icon: Globe },
+    { name: "Giphy", url: "https://giphy.com/channel/Caceras", icon: Video },
   ]
 
   const freelancePlatforms = [
@@ -382,7 +383,7 @@ export default function Portfolio() {
             </Card>
 
             {/* Profile Image Card */}
-            <Card className="md:col-span-1 lg:col-span-1 md:row-span-2 p-0 bg-card border border-border relative overflow-hidden rounded-[3px] shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+            <Card className="md:col-span-2 lg:col-span-2 md:row-span-2 p-0 bg-card border border-border relative overflow-hidden rounded-[3px] shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
               <div className="relative w-full h-full min-h-[400px] md:min-h-[300px]">
                 <Image
                   src="/images/design-mode/riki.png"
@@ -767,6 +768,22 @@ export default function Portfolio() {
                       </a>
                     )
                   })}
+                </div>
+              </div>
+            </Card>
+
+            {/* Calendar Card */}
+            <Card className="md:col-span-3 lg:col-span-4 p-4 md:p-6 bg-card border border-border relative overflow-hidden rounded-[3px] shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+              <div className="relative z-10">
+                <h3 className="font-bold text-card-foreground mb-3 md:mb-4 font-sans text-sm md:text-base">
+                  Kalender
+                </h3>
+                <div className="w-full overflow-hidden rounded-[3px]">
+                  <iframe
+                    src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FStockholm&showPrint=0&showTz=0&showTabs=0&mode=MONTH&title=Riki%20Caceras&src=cmlraWNhY2VyYXNAZ21haWwuY29t&src=c3Yuc3dlZGlzaCNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=cmlrYXJkLmNhY2VyYXNAcGluZWJlcnJ5LmNvbQ&color=%23ef6c00&color=%237cb342&color=%233f51b5"
+                    className="w-full h-[400px] md:h-[500px] border-0"
+                    title="Riki Caceras Calendar"
+                  />
                 </div>
               </div>
             </Card>
