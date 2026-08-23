@@ -1,3 +1,6 @@
+<img width="576" height="576" alt="image" src="https://github.com/user-attachments/assets/d1a12cab-6ab7-4834-b663-b4bb3f37b8f1" />
+
+
 https://caceras-vercel-preview.vercel.app/images/riki.png
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
