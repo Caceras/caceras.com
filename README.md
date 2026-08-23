@@ -1,4 +1,4 @@
-<img width="576" height="576" alt="image" src="https://github.com/user-attachments/assets/d1a12cab-6ab7-4834-b663-b4bb3f37b8f1" />
+<img width="376" height="376" alt="image" src="https://github.com/user-attachments/assets/d1a12cab-6ab7-4834-b663-b4bb3f37b8f1" />
 
 
 https://caceras-vercel-preview.vercel.app/images/riki.png
